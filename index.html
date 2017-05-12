@@ -1,47 +1,15 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html ng-app="myApp">
   <head>
-    <meta charset="utf-8">
-    <title>M.Johnson</title>
-
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <script
-    src="https://code.jquery.com/jquery-3.2.1.js"
-    integrity="sha256-DZAnKJ/6XZ9si01Hgrsxu/8s717jcIzLy3oi35EouyE="
-    crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="stylesheet.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header>
-      <div class="row">
-        <div class="column">
-
-          <nav class="navbar navbar-default" role="navigation">
-
-            <ul class="nav navbar-nav pull-right">
-              <li><a href="/"><span class="nav-text">Home</span></a></li>
-              <li><a href="/"><span class="nav-text">All Receipts</span></a></li>
-              <li><a href="/"><span class="nav-text">Information</span></a></li>
-            </ul>
-
-          </nav>
-        </div>
-      </div>
-
-      <h1>Maddie</h1>
-      <h1>Johnson</h1>
-    </header>
-
-    <main>
-
-    </main>
-
-    <footer>
-        <h6> M.Johnson 2017 </h6>
-
-    </footer>
-
+    <h2>Todo</h2>
+    <div ng-controller="WebsiteController">
+      <p>{{test}}</p>
+    </div>
   </body>
 </html>
