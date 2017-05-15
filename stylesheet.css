@@ -7,32 +7,63 @@ main {
   background-color: rgba(255, 255, 255, 0.85);
   width: 100%;
   border-bottom: 1px solid silver;
+  z-index: 20;
 }
 
-ul.nav a:hover {
+ul.nav li:hover {
   background-color: rgba(255, 255, 255, 0) !important;
-  border-bottom: 1px solid red;
-  padding-bottom: 9px; 
-}
-
-
-/*ul {
-  list-style-type: none;
-  padding-left: 0px;
-}
-
-li.menu-content {
-  padding: 10px;
-  border-bottom: : 2px;
-  border-color: silver;
+  border-bottom: 3px solid red;
 
 }
 
-li.menu-content:hover {
-  border-bottom: 2px solid red;
+a.menu-content:hover {
+  background-color: rgba(255, 255, 255, 0) !important;
+  padding-bottom: 7px !important;
 }
 
-a {
- text-decoration: none;
- color: red;
-}*/
+a.menu-content {
+  /*left: 80%;
+  padding-right: 10px;*/
+  padding-bottom: 10px !important;
+  text-align: right;
+}
+
+
+#main-div {
+  width: 60vmin;
+  height: 60vmin;
+  margin-top: 10vmin;
+  margin-bottom: 10vmin;
+  background-color: #372248;
+  left: 10%;
+  position: relative;
+}
+
+.text-in-main-div{
+  font-size: 10vmin;
+  vertical-align: middle;
+  padding-top: 15vmin;
+  color: silver;
+  text-align: center;
+}
+
+.home-menu {
+  list-style: none;
+  margin-top: 20vmin;
+}
+
+.home-menu-route {
+  font-size: 5vmin;
+  text-align: right;
+  font-size: 5vmin;
+  margin: 3px;
+  color: #F46036
+}
+
+li a:hover {
+  text-decoration: none;
+}
+
+.home-menu-route:hover {
+  color: #171123;
+}
