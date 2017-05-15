@@ -95,3 +95,21 @@ h1.grey-heading {
   width: 100%;
   padding: 5%;
 }
+
+.project {
+  text-align: center;
+  padding-top: 15px; 
+}
+
+.project-icon {
+  width: 300px;
+}
+
+.project-description {
+  text-align: left;
+}
+
+.rest-easy-add-border {
+  border-top: 23.5px solid #171123;
+  border-bottom: 23.5px solid #171123;
+}
