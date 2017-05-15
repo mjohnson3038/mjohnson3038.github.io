@@ -10,7 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
-  <body>
+  <body id="home-top">
     <header ng-controller="WebsiteController">
 
       <nav class="navbar" id="navbar">
@@ -23,10 +23,10 @@
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-              <li><a class="menu-content" href="#">Home</a></li>
-              <li><a class="menu-content" href="#">About</a></li>
-              <li><a class="menu-content" href="#">Portfolio</a></li>
-              <li><a class="menu-content" href="#">Contact Me</a></li>
+              <li><a class="menu-content" href="#home-top">Home</a></li>
+              <li><a class="menu-content" href="#about">About</a></li>
+              <li><a class="menu-content" href="#portfolio">Portfolio</a></li>
+              <li><a class="menu-content" href="#contact-me">Contact Me</a></li>
             </ul>
           </div>
         </div>
@@ -43,10 +43,10 @@
           </div>
 
           <ul class="col-xs-4 home-menu pull-right">
-            <li><a href="#"><h3 class="home-menu-route">Home</h3></a></li>
-            <li><a href="#"><h3 class="home-menu-route">About</h3></a></li>
-            <li><a href="#"><h3 class="home-menu-route">Portfolio</h3></a></li>
-            <li><a href="#"><h3 class="home-menu-route">Contact Me</h3></a></li>
+            <li><a href="#home-top"><h3 class="home-menu-route">Home</h3></a></li>
+            <li><a href="#about"><h3 class="home-menu-route">About</h3></a></li>
+            <li><a href="#portfolio"><h3 class="home-menu-route">Portfolio</h3></a></li>
+            <li><a href="#contact-me"><h3 class="home-menu-route">Contact Me</h3></a></li>
           </ul>
         </div>
 
@@ -73,8 +73,8 @@
               <h3>Betsy</h3>
               <a href="http://basketcase-betsy.herokuapp.com/"><img src="images/betsy.png" alt="betsy" class="project-icon"></a>
               <h5 class="project-links">
-                <a href="https://github.com/wordkarin/betsy" class="link-in-text">Source Code</a> ||
-                <a href="http://basketcase-betsy.herokuapp.com/categories" class="link-in-text">Final Product</a>
+                <a href="https://github.com/wordkarin/betsy" class="text-link">Source Code</a> ||
+                <a href="http://basketcase-betsy.herokuapp.com/categories" class="text-link">Final Product</a>
               </h5>
 
               <div class="project-description">
@@ -88,8 +88,8 @@
               <a href="https://www.youtube.com/watch?v=dLjHNkezafY"><img src="images/resteasy.png" alt="resteasy" class="project-icon rest-easy-add-border"></a>
 
               <h5 class="project-links">
-                <a href="https://github.com/mjohnson3038/rest-easy" class="link-in-text">Source Code</a> ||
-                <a href="https://www.youtube.com/watch?v=dLjHNkezafY" class="link-in-text">Demo</a>
+                <a href="https://github.com/mjohnson3038/rest-easy" class="text-link">Source Code</a> ||
+                <a href="https://www.youtube.com/watch?v=dLjHNkezafY" class="text-link">Demo</a>
               </h5>
 
               <div class="project-description">
@@ -103,10 +103,19 @@
       </section>
 
       <section id="contact-me" class="container">
+        <h1 class="grey-heading">Contact Me</h1>
+
+        <div class="row icons">
+          <a href="https://github.com/mjohnson3038" class="text-link"><i class="fa fa-github col-sm-4 fa-5x"></i></a>
+          <a href="https://github.com/mjohnson3038/rest-easy" class="text-link"><i class="fa fa-linkedin-square col-sm-4 fa-5x"></i></a>
+          <a href="mailto:mjohnson3038@gmail.com" class="text-link"><i class="fa fa-envelope col-sm-4 fa-5x" aria-hidden="true"></i></a>
+        </div>
       </section>
     </main>
 
     <footer>
+      
+
     </footer>
   </body>
 </html>

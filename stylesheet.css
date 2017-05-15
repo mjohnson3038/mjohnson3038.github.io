@@ -10,23 +10,31 @@ main {
   z-index: 20;
 }
 
+.navbar-brand {
+  color: #372248
+}
+
 ul.nav li:hover {
   background-color: rgba(255, 255, 255, 0) !important;
-  border-bottom: 3px solid red;
+  /*border-bottom: 3px solid #F46036;*/
 
 }
 
 a.menu-content:hover {
   background-color: rgba(255, 255, 255, 0) !important;
-  padding-bottom: 7px !important;
+  /*padding-bottom: 7px !important;*/
+  color: #F46036
 }
 
 a.menu-content {
-  /*left: 80%;
-  padding-right: 10px;*/
   padding-bottom: 10px !important;
   text-align: right;
+  color: #171123;
+  /*border-bottom: 3px !important;*/
+  /*border-color: gba(255, 255, 255, 0) !important;*/
 }
+
+
 
 
 #main-div {
@@ -78,11 +86,11 @@ p {
   color: #171123;
 }
 
-a.link-in-text {
+a.link-in-text, a.text-link {
   color: #5B85AA;
 }
 
-p a:hover {
+p a:hover, a.text-link:hover {
   text-decoration: none;
   color: #F46036;
 }
@@ -98,7 +106,7 @@ h1.grey-heading {
 
 .project {
   text-align: center;
-  padding-top: 15px; 
+  padding-top: 15px;
 }
 
 .project-icon {
@@ -112,4 +120,21 @@ h1.grey-heading {
 .rest-easy-add-border {
   border-top: 23.5px solid #171123;
   border-bottom: 23.5px solid #171123;
+}
+
+#contact-me {
+  background-color: #ececf0;
+  width: 100%;
+  padding: 5%;
+}
+
+.icons {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #171123;
+}
+
+.fa:hover {
+  color: #F46036;
 }
