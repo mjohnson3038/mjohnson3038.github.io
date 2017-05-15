@@ -67,3 +67,31 @@ li a:hover {
 .home-menu-route:hover {
   color: #171123;
 }
+
+#about {
+  background-color: #ececf0;
+  width: 100%;
+  padding: 5%;
+}
+
+p {
+  color: #171123;
+}
+
+a.link-in-text {
+  color: #5B85AA;
+}
+
+p a:hover {
+  text-decoration: none;
+  color: #F46036;
+}
+
+h1.grey-heading {
+  color: #F46036;
+}
+
+#portfolio {
+  width: 100%;
+  padding: 5%;
+}
